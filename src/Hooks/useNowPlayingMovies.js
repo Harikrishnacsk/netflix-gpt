@@ -9,7 +9,7 @@ import { useDispatch } from "react-redux";
     const getNowPlayingMovies = async ()  =>{
         const nowPlaying = await fetch('https://api.themoviedb.org/3/movie/now_playing', API_OPTIONS);
         const nowPlayingData = await nowPlaying.json();
-        console.log(nowPlayingData.results);
+        //console.log(nowPlayingData.results);
         dispatch(addNowPlayingMovies(nowPlayingData.results));
      }
      useEffect(() =>{
