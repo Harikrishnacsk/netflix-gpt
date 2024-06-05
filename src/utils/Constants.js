@@ -7,4 +7,10 @@ export const API_OPTIONS = {
     }
   };
 
-export const Movie_CDN_URL = "https://image.tmdb.org/t/p/w500"
+export const Movie_CDN_URL = "https://image.tmdb.org/t/p/w500";
+
+export const SupportedLanguages = [
+  {indentifier : "en", name : "English"},
+  {indentifier : "tamil", name : "Tamil"},
+  {indentifier : "telugu", name : "Telugu"},
+]
